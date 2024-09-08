@@ -58,7 +58,7 @@ public class Main {
     // 7. roundPositiveValueToNearestInteger
     public static int roundPositiveValueToNearestInteger (double value)
     {
-        return (int) Math.round(value);
+        return (int) Math.round(value); //im lazy so i just used the math round function instead of (a - (int)a < 0.5)
     }
     // 8. roundNegativeValueToNearestInteger
     public static int roundNegativeValueToNearestInteger (double value)
